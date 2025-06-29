@@ -47,7 +47,7 @@ player_speed = 1
 
 # Initialize font
 pygame.font.init()
-font = pygame.font.Font(None, 36)
+font = pygame.font.SysFont("Constantia", 30)
 
 # Initialize clock
 clock = pygame.time.Clock()
